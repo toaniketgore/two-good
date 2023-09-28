@@ -120,6 +120,22 @@ body {
     scale: 0;
 }
 
+.hr-line{
+    margin:50px 15px 0px 20px;
+    padding:1px;
+    border-bottom:1px solid #514a4ad3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr-line span{
+    font-size: 12.5px;
+    line-height: 13.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 5px 0;
+}
 #page2 {
     min-height: 100vh;
     width: 100%;

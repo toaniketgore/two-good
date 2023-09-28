@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 *::selection {
@@ -122,15 +122,16 @@ body {
     scale: 0;
 }
 
-.hr-line{
-    margin:50px 15px 0px 20px;
-    padding:1px;
-    border-bottom:1px solid #514a4ad3;
+.hr-line {
+    margin: 50px 15px 0px 20px;
+    padding: 1px;
+    border-bottom: 1px solid #514a4ad3;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hr-line span{
+
+.hr-line span {
     font-size: 12.5px;
     line-height: 13.2px;
     font-weight: 400;
@@ -139,44 +140,49 @@ body {
     padding: 5px 0;
 }
 
-.about-section{
-    height:56vh;
-    width:100vw;
+.about-section {
+    height: 56vh;
+    width: 100vw;
     padding: 1vw;
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
-.about-section .heading{
-    width:60%;
+
+.about-section .heading {
+    width: 60%;
     font-size: 40px;
     font-weight: 900;
     letter-spacing: -1px;
-    line-height:60px;
+    line-height: 60px;
 }
-.about-section .para{
-    width:30%;
+
+.about-section .para {
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-right:1.5vw;   
+    margin-right: 1.5vw;
     text-align: justify;
     font-size: 14.5px;
     line-height: 24px;
     font-weight: 400;
     letter-spacing: 0.5px;
-    padding-right:86px;
+    padding-right: 86px;
 }
-.about-section .para .para2{
-    padding-top:25px;
+
+.about-section .para .para2 {
+    padding-top: 25px;
 }
-.about-section .para span{
+
+.about-section .para span {
     font-size: 12px;
     text-transform: uppercase;
-    padding-top:25px;
+    padding-top: 25px;
     border-bottom: 2px solid black;
 }
+
 #page2 {
     min-height: 100vh;
     width: 100%;
@@ -224,7 +230,6 @@ body {
 #page3 {
     min-height: 120vh;
     width: 100%;
-
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -266,6 +271,98 @@ body {
     height: 100%;
 }
 
+.hr-line2 {
+    margin: 70px 15px 0px 20px;
+    padding: 1px;
+    border-bottom: 1px solid #514a4ad3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr-line2 span {
+    font-size: 10.5px;
+    line-height: 13.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 5px 0;
+}
+
+#page4 {
+    min-height: 120vh;
+    width: 100%;
+    position: relative;
+}
+
+#page4 .slider {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page4 .slider .btn {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#page4 .slider .btn:hover {
+    opacity: 0.6;
+}
+
+#page4 .slider .btn i {
+    padding-bottom: 30px;
+}
+
+#page4 .msg-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page4 .msg-section h2 {
+    padding: 80px 120px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 5vw;
+}
+
+#page4 .msg-section #send-msg-btn {
+    width: 20vw;
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 40px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 2px;
+    padding: 0 8px;
+}
+
+#page4 .msg-section span {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding:25px 0;
+}
+
 @media (max-width:600px) {
     #page1 h1 {
         font-size: 15.5vw;
@@ -286,14 +383,7 @@ body {
     }
 
     .video-container .play {
-        padding: 9vw 7vw;
-        font-size: 4vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        opacity: 1;
-        scale: 1;
-        transform: translate(-50%, -50%);
+      display: none;
     }
 
     #page2 {
@@ -419,6 +509,7 @@ body {
         margin: 0 20px;
         font-weight: 100;
     }
+
     #cursor {
         height: 180px;
         width: 180px;
@@ -426,28 +517,31 @@ body {
         border-radius: 50%;
         position: fixed;
         transform: translate(-50%, -50%) scale(0);
-    
+
     }
-    .about-section{
-        height:60vh;
-        width:100vw;
+
+    .about-section {
+        height: 60vh;
+        width: 100vw;
         padding: 1vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    .about-section .heading{
-        width:100%;
+
+    .about-section .heading {
+        width: 100%;
         font-size: 20px;
         font-weight: 900;
         letter-spacing: -1px;
-        line-height:36px;
+        line-height: 36px;
         text-align: center;
     }
-    .about-section .para{
-        padding:0 9.5px;        
-        width:100%;
+
+    .about-section .para {
+        padding: 0 9.5px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -457,13 +551,77 @@ body {
         font-weight: 400;
         letter-spacing: 0.3px;
     }
-    .about-section .para .para2{
-        padding-top:25px;
+
+    .about-section .para .para2 {
+        padding-top: 25px;
     }
-    .about-section .para span{
+
+    .about-section .para span {
         font-size: 12px;
         text-transform: uppercase;
-        padding-top:25px;
+        padding-top: 25px;
         border-bottom: 2px solid black;
     }
+
+    #page4 .slider {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #page4 .slider #btn4,#page4 .slider #btn5{
+        display: none;
+    }
+    
+    #page4 .slider .btn {
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    
+   
+    
+    #page4 .slider .btn i {
+        padding-bottom: 20px;
+    }
+    
+    #page4 .msg-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #page4 .msg-section h2 {
+        padding: 80px 20px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 7vw;
+    }
+    
+    #page4 .msg-section #send-msg-btn {
+        width: 70vw;
+        border-radius: 100px;
+        background-color: #000;
+        color: #fff;
+        margin-top: 20px;
+        
+    }
+    
+    #page4 .msg-section span {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        padding:25px 0;
+    }
+    
 }

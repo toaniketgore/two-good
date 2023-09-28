@@ -362,4 +362,13 @@ body {
         margin: 0 20px;
         font-weight: 100;
     }
+    #cursor {
+        height: 180px;
+        width: 180px;
+        background-color: rgba(128, 128, 128, 0.396);
+        border-radius: 50%;
+        position: fixed;
+        transform: translate(-50%, -50%) scale(0);
+    
+    }
 }

@@ -360,9 +360,81 @@ body {
     line-height: 20px;
     font-weight: 400;
     letter-spacing: 0.5px;
-    padding:25px 0;
+    padding: 25px 0;
 }
 
+
+#page5 {
+    min-height: 120vh;
+    width: 100%;
+    position: relative;
+}
+
+#page5 .impact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 15vw;
+}
+
+#page5 .impact-msg {
+    padding-left: 25px;
+
+}
+
+.impact-msg h2 {
+    text-transform: uppercase;
+}
+
+.impact-msg .para {
+    padding-top: 40px;
+}
+
+.impact-msg p {
+    text-align: start;
+    font-size: 14.5px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-right: 86px;
+}
+
+.impact-msg .impact-msg-span {
+    display: inline-block;
+    padding-top: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #dadada;
+}
+
+#page5 .two-pictures {
+    min-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page5 .two-pictures img {
+    height: 600px;
+    width: 450px;
+}
+
+#page5 .email-line {
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vw;
+    padding: 0 2vw;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.email-line i {
+    font-size: 35px;
+}
+
+
+/*media query for the mobile devices*/
 @media (max-width:600px) {
     #page1 h1 {
         font-size: 15.5vw;
@@ -383,7 +455,7 @@ body {
     }
 
     .video-container .play {
-      display: none;
+        display: none;
     }
 
     #page2 {
@@ -569,10 +641,12 @@ body {
         justify-content: space-around;
         align-items: center;
     }
-    #page4 .slider #btn4,#page4 .slider #btn5{
+
+    #page4 .slider #btn4,
+    #page4 .slider #btn5 {
         display: none;
     }
-    
+
     #page4 .slider .btn {
         font-size: 15px;
         line-height: 15px;
@@ -584,20 +658,20 @@ body {
         cursor: pointer;
         transition: 0.8s;
     }
-    
-   
-    
+
+
+
     #page4 .slider .btn i {
         padding-bottom: 20px;
     }
-    
+
     #page4 .msg-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     #page4 .msg-section h2 {
         padding: 80px 20px;
         text-align: center;
@@ -606,22 +680,84 @@ body {
         text-transform: uppercase;
         line-height: 7vw;
     }
-    
+
     #page4 .msg-section #send-msg-btn {
         width: 70vw;
         border-radius: 100px;
         background-color: #000;
         color: #fff;
         margin-top: 20px;
-        
+
     }
-    
+
     #page4 .msg-section span {
         font-size: 12px;
         line-height: 18px;
         font-weight: 400;
         letter-spacing: 0.5px;
-        padding:25px 0;
+        padding: 25px 0;
     }
-    
+
+    #page5 {
+        min-height: 120vh;
+        width: 100%;
+        position: relative;
+    }
+
+    #page5 .impact-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 15vw;
+    }
+
+    #page5 .impact-msg {
+        padding-top: 45px;
+    }
+
+    .impact-msg h2 {
+        text-transform: uppercase;
+    }
+
+    .impact-msg .para {
+        padding-top: 20px;
+    }
+
+    .impact-msg p {
+        text-align: start;
+        font-size: 14.5px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+    }
+
+    .impact-msg .impact-msg-span {
+        display: inline-block;
+        padding-top: 30px;
+        font-size: 12.5px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #dadada;
+    }
+
+    #page5 .two-pictures {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #page5 .two-pictures img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #page5 .email-line {
+        margin-top: 12vw;
+        padding-left: 6.5vw;
+        text-transform: uppercase;
+        font-size: 7px;
+    }
+    .email-line i {
+        font-size: 30px;
+    }
 }

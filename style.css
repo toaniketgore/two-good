@@ -433,6 +433,115 @@ body {
     font-size: 35px;
 }
 
+/* footer designing page 6 */
+
+#page6 {
+    min-height: 110vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#page6 .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12vw 2vw 0 2vw;
+}
+
+#page6 .first-section .first-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.first-section .first-part #connect-span,
+#faq-title {
+    opacity: 0.8;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.second-part svg {
+    padding-top: 45px;
+    height: 235px;
+    width: 235px;
+}
+
+.first-section .first-part .social-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+#page6 .first-section .third-part #faq-title {
+    padding-right: 5px;
+}
+
+#page6 .first-section .third-part {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#page6 .first-section .third-part span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+#page6 .second-section {
+    padding: 6vw 35vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page6 .second-section span {
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+#page6 .third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section p {
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.creator-line {
+    padding-bottom:1vw;
+    border-bottom: 1px solid #514a4ad3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
 
 /*media query for the mobile devices*/
 @media (max-width:600px) {
@@ -757,7 +866,103 @@ body {
         text-transform: uppercase;
         font-size: 7px;
     }
+
     .email-line i {
         font-size: 30px;
+    }
+
+
+
+    #page6 {
+        min-height: 75vh;
+        width: 100%;
+        position: relative;
+
+    }
+
+    #page6 .first-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        padding: 2vw 4vw;
+    }
+
+    #page6 .first-section .first-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .first-section .first-part #connect-span,
+    #faq-title {
+        opacity: 0.8;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    .second-part svg {
+        display: none;
+    }
+
+    .first-section .first-part .social-link {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+    }
+
+    #page6 .first-section .third-part {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #page6 .first-section .third-part span {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+    }
+
+    #page6 .second-section {
+        padding: 6vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #page6 .second-section span {
+        opacity: 0.8;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        text-align: center;
+    }
+
+    #page6 .third-section {
+        display: block;
+        width: 100%;
+    }
+
+    .third-section p {
+        width: 100%;
+        text-align: start;
+        font-size: 12.5px;
+        line-height: 20px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        padding: 0 4vw;
+    }
+
+    .creator-line{
+        font-size: 12px;
     }
 }
